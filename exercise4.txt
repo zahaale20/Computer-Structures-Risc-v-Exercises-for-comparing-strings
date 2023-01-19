@@ -1,0 +1,14 @@
+Alex Zaharia, Skyler Edwards
+Practice 1, Exercise 4
+
+How should the string_compare function be implemented to avoid attacks of this type?
+
+The most effective way to avoid attacks of this type would be to store the letters and number of cycles in random places in memory and store the 
+memory addresses in a stack such that the data isn't lost. Doing so would make it more difficult to access the number of cycles since the stack 
+would have to be accessed. This would also increase the amount of time it would take someone to perform a successful attack on the function. 
+Another way to avoid attacks of this type, I would write the program in another an Object Oriented language such as Java or Python and 
+implement an encryption algorithm such as SHA-256 or even a simpler one such as a Caesar Shift as this will deter any attacks on the 
+functionality of the program. We say to implement this program in another language as it would be easier to implement an encryption 
+algorithm in Java or Python (programs we are familiar with and know how to implement such an algorithm in). This may not be the most effective 
+option since it doesn't use assembly and doesn't optimize the time it takes to run a program (Java and python aren't as optimized since they are 
+higher level languages and we aren't able to access everything the computer is doing in the background).
